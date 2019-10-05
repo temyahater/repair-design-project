@@ -1,0 +1,341 @@
+body {
+    width: 1440px;
+    height: 10150px;
+    margin: 0 auto;
+}
+header {
+    height: 838px;
+    background: gray;
+}
+
+
+.div-header {
+    height: 740px;
+    background: red;
+    width: 1440px;
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.div-header-nav {
+    background-color: blue;
+    width: 583px;
+    height: 84px;
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbox {
+    color: #E3B873;;
+}
+
+.div-header-number {
+    width: 325px;
+    height: 84px;
+    background: lightskyblue;
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E3B873;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+
+    button {
+        background: #E3B873;
+        text-decoration: none;
+        width: 160px;
+        height: 40px;
+        color: white;
+        font-family: FuturaDemiC;
+        font-size: 13px;
+        border-radius: 4px;
+        outline: none;
+        border-width: 0px;
+    }
+}
+
+.header-space {
+    width: 75px;
+    height: 84px;
+    background: limegreen;
+    display: flex;
+}
+
+.header-space2 {
+    width: 99px;
+    height: 84px;
+    background: limegreen;
+    display: flex;
+}
+
+.header-left-border {
+    background-color:black;
+    height: 84px;
+    width: 83px;
+}
+
+.header-left-border2 {
+    background-color: blue;
+    width: 83px;
+    height: 656px;
+
+    span {
+        display: flex;
+        margin: 200px 0 0 30px;
+        font-family: FuturaDemiC;
+        font-size: 15px;
+        color: #E3B873;
+    }
+}
+
+.header-main {
+    background-color: orange;
+    width: 530px;
+    height: 656px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+    p {
+        line-height: 29px;
+        font-family: 'FuturaBookC';
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    span {
+        font-family: 'Yeseva One';
+        font-size: 40px;
+        margin-top: 190px;
+        line-height: 52px;
+        span {
+            color: #E3B873;
+        }
+    }
+
+    button {
+        background: #E3B873;
+        text-decoration: none;
+        width: 207px;
+        height: 51px;
+        color: white;
+        font-family: FuturaDemiC;
+        font-size: 13px;
+        border-radius: 4px;
+        outline: none;
+        border-width: 0px;
+        margin-top: 10px;
+    }
+}
+
+.header-main-button2 {
+    margin-left: 15px;
+    border: 1px solid white !important;
+    background-color: orange !important;
+}
+
+.name-header {
+    height: 84px;
+    width: 275px;
+    color: #E3B873;    
+    font-family: FuturaDemic;
+    font-size: 14px;
+    background: green;
+    display: flex;
+    align-items: center;
+}
+
+.scroll-down {
+    display: flex;
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    margin-left: 50px;
+    padding-top: 40px;
+}
+
+.scrol-down-img {
+    display: flex;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+
+.header-scroll-down2 {
+    width: 1440px;
+    height: 50px;
+    background-color: purple;
+}
+
+.header-scroll-down1 {
+    width: 248px;
+    height: 48px;
+    background-color: greenyellow;
+}
+
+.first-main {
+    height: 1026px;
+    background: red;
+    display: flex;
+
+}
+
+.div1-first-main {
+    width: 550px;
+    height: 650px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin: 22px 0 0 100px;
+        font-family: 'FuturaBookC';
+        font-size: 18px;
+        line-height: 29px;
+        color: white;
+    }
+}
+
+.div2-first-main {
+    margin-top: 43px;
+    margin-left: 100px;
+    width: 375px;
+    height: 220px;
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div {
+        margin-top: 5px;
+        width: 48%;
+        height: 105px;
+        font-family: 'Yeseva One';
+        font-size: 18px;
+        line-height: 23px;
+        color: #E3B873;
+
+        span {
+            font-family: 'FuturaBookC';
+            font-size: 15px;
+            line-height: 15px;
+            color: white;
+        }
+    }
+}
+
+.first-main-slider {
+    margin: 25px 0 0 100px;
+}
+
+.div1-first-main-head {
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    color: #E3B873;
+    margin: 125px 0 0 100px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+}
+
+.div3-first-main {
+    width: 890px;
+    height: 650px;
+    background: lightskyblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div4-first-main {
+    width: 700px;
+    height: 120px;
+    background: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+
+    span:first-child {
+        color: #E3B873;
+        border-bottom: 1px solid #E3B873;
+        line-height: 30px;
+    }
+}
+
+.div5-first-main {
+    width: 190px;
+    height: 120px;
+    background: purple;
+}
+
+.div6-first-main {
+    height: 530px;
+    width: 890px;
+    background: pink;
+}
+
+.second-main {
+    height: 2577px;
+    background: lightgreen;
+}
+
+.third-main {
+    height: 864px;
+    background: lightsalmon;
+}
+
+.fourth-main {
+    height: 620px;
+    background: lightseagreen;
+}
+
+.fifth-main {
+    height: 1615px;
+    background: lightskyblue;
+}
+
+.sixth {
+    height: 1523px;
+    background: purple;
+}
+
+.seventh-main {
+    height: 954px;
+    background: yellow;
+}
+
+footer {
+    height: 133px;
+    background: greenyellow;
+}
+
+.footer-first {
+    height: 133px;
+    background: lightpink;
+}
+
+@font-face {
+    font-family: "FuturaDemiC";
+    src: url("/futurademic.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src: url("/fonts/yesevaone.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FuturaBookC";
+    src: url("/fonts/futurabookc.otf") format("truetype");
+}
