@@ -1461,13 +1461,36 @@
   .seventh-text span:nth-child(2) {
     margin-top: 20px;
   }
+  .seventh-text span:nth-child(3) {
+    margin-top: 20px;
+  }
   footer {
     height: 133px;
     background: greenyellow;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .footer-first {
     height: 133px;
+    width: 1260px;
     background: lightpink;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-first div:nth-child(1) {
+    height: 100%;
+    width: 275px;
+    background: lightblue;
+  }
+  .footer-first div:nth-child(2) {
+    height: 100%;
+    width: 585px;
+    background: purple;
   }
 }
 
