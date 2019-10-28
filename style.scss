@@ -4,6 +4,7 @@
     $bColor: #181818;
     $grColor: #959595;
     $blColor: #363636;
+    $bColor3: #131313;
 
     .mobile-head {
         display: none;
@@ -45,6 +46,7 @@
     header {
         height: 838px;
         background: none;
+        background: $bColor3;
     }
 
 
@@ -59,10 +61,10 @@
     }
 
     .div-header-nav {
-        background-color: #131313;
+        background-color: $bColor3;
         width: 583px;
         height: 84px;
-        font-family: FuturaDemiC;
+        font-family: FuturaBookC;
         font-size: 14px;
         line-height: 16px;
         color: white;
@@ -73,13 +75,13 @@
     }
 
     .header-navbox {
-        color: #E3B873;;
+        color: #E3B873;
     }
 
     .div-header-number {
         width: 325px;
         height: 84px;
-        background: #131313;
+        background: $bColor3;
         font-family: FuturaDemiC;
         font-size: 14px;
         line-height: 16px;
@@ -106,25 +108,25 @@
     .header-space {
         width: 75px;
         height: 84px;
-        background: #131313;
+        background: $bColor3;
         display: flex;
     }
 
     .header-space2 {
         width: 99px;
         height: 84px;
-        background: #131313;
+        background: $bColor3;
         display: flex;
     }
 
     .header-left-border {
-        background-color:#131313;
+        background-color: $bColor3;
         height: 84px;
         width: 83px;
     }
 
     .header-left-border2 {
-        background-color: #131313;
+        background-color: $bColor3;
         width: 83px;
         height: 656px;
 
@@ -189,7 +191,7 @@
         color: #E3B873;    
         font-family: FuturaDemic;
         font-size: 14px;
-        background: #131313;
+        background: $bColor3;
         display: flex;
         align-items: center;
     }
@@ -212,13 +214,13 @@
     .header-scroll-down2 {
         width: 1440px;
         height: 50px;
-        background-color: #131313;
+        background-color: $bColor3;
     }
 
     .header-scroll-down1 {
         width: 248px;
         height: 48px;
-        background-color: #131313;
+        background-color: $bColor3;
     }
 
     .first-main {
@@ -898,7 +900,8 @@
 
     .fifth-main {
         height: 1175px;
-        background: $bColor;
+        background-image: url(/imges/backfifth.png);
+        background-color: $bColor;
     }
 
     .block1-fifth {
@@ -1117,6 +1120,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-image: url(/imges/FrameEnd.png);
     }
 
     .block1-sixth {
@@ -1250,7 +1254,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background: $bColor;
+        background-image: url(/imges/backform2.png);
 
         button {
             width: 200px;
@@ -1348,7 +1352,7 @@
 
     footer {
         height: 133px;
-        background: greenyellow;
+        background: $bColor;
         display: flex;
         justify-content: center;
     }
@@ -1356,19 +1360,57 @@
     .footer-first {
         height: 133px;
         width: 1260px;
-        background: lightpink;
         display: flex;
+        font-family: FuturaDemiC;
+        font-size: 14px;
+        line-height: 16px;
+        color: white;
 
         div:nth-child(1) {
             height: 100%;
             width: 275px;
-            background: lightblue;
+            color: $gColor;
+            display: flex;
+            align-items: center;
         }
 
         div:nth-child(2) {
             height: 100%;
             width: 585px;
-            background: purple;
+            font-family: FuturaBookC;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span:first-child {
+                color: $gColor;
+            }
+        }
+
+        div:nth-child(3) {
+            height: 100%;
+            width: 330px;
+            margin-left: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                color: $gColor;
+                text-decoration: underline;
+            }
+
+            button {
+                width: 161px;
+                height: 37px;
+                font-size: 13px;
+                line-height: 15px;
+                border-radius: 2px;
+                border: none;
+                box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+                background: $gColor;
+                color: white;
+            }
         }
     }
 }

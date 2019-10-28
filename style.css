@@ -31,6 +31,7 @@
   header {
     height: 838px;
     background: none;
+    background: #131313;
   }
   .div-header {
     height: 740px;
@@ -48,7 +49,7 @@
     background-color: #131313;
     width: 583px;
     height: 84px;
-    font-family: FuturaDemiC;
+    font-family: FuturaBookC;
     font-size: 14px;
     line-height: 16px;
     color: white;
@@ -967,7 +968,8 @@
   }
   .fifth-main {
     height: 1175px;
-    background: #181818;
+    background-image: url(/imges/backfifth.png);
+    background-color: #181818;
   }
   .block1-fifth {
     width: 100%;
@@ -1207,6 +1209,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-image: url(/imges/FrameEnd.png);
   }
   .block1-sixth {
     height: 400px;
@@ -1362,7 +1365,7 @@
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background: #181818;
+    background-image: url(/imges/backform2.png);
   }
   .seventh-form button {
     width: 200px;
@@ -1466,7 +1469,7 @@
   }
   footer {
     height: 133px;
-    background: greenyellow;
+    background: #181818;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1477,20 +1480,71 @@
   .footer-first {
     height: 133px;
     width: 1260px;
-    background: lightpink;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
   }
   .footer-first div:nth-child(1) {
     height: 100%;
     width: 275px;
-    background: lightblue;
+    color: #E3B873;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footer-first div:nth-child(2) {
     height: 100%;
     width: 585px;
-    background: purple;
+    font-family: FuturaBookC;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-first div:nth-child(2) span:first-child {
+    color: #E3B873;
+  }
+  .footer-first div:nth-child(3) {
+    height: 100%;
+    width: 330px;
+    margin-left: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-first div:nth-child(3) span {
+    color: #E3B873;
+    text-decoration: underline;
+  }
+  .footer-first div:nth-child(3) button {
+    width: 161px;
+    height: 37px;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 2px;
+    border: none;
+    -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+            box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    background: #E3B873;
+    color: white;
   }
 }
 
