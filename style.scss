@@ -72,10 +72,15 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
 
-    .header-navbox {
-        color: #E3B873;
+        a:hover {
+            color: #E3B873;
+        }
     }
 
     .div-header-number {
@@ -102,6 +107,10 @@
             border-radius: 4px;
             outline: none;
             border-width: 0px;
+        }
+
+        button:hover {
+            box-shadow: 1px 1px 2px orange, 0 0 1em orange;
         }
     }
 
@@ -176,6 +185,14 @@
             border-width: 0px;
             margin-top: 10px;
             background: #E3B873;
+        }
+
+        button:hover:nth-child(1) {
+            box-shadow: 1px 1px 2px orange, 0 0 1em orange;
+        }
+
+        button:hover:nth-child(2) {
+            box-shadow: 1px 1px 2px white, 0 0 1em white;
         }
     }
 
@@ -304,7 +321,7 @@
         font-size: 14px;
         color: rgba(255, 255, 255, 0.3);
 
-        span:first-child {
+        span:hover{
             color: #E3B873;
             border-bottom: 1px solid #E3B873;
             line-height: 30px;
@@ -734,13 +751,18 @@
     .block1-third-ul {
         height: 653px;
         width: 100%;
+        font-family: 'Proxima Nova' !important;
+        font-size: 20px !important;
 
-        span {
-            font-family: 'Proxima Nova' !important;
-            font-size: 20px !important;
+        li {
+            width: max-content;
+        }
+
+        li:hover {
             color: $gColor;
             padding-bottom: 2px;
             border-bottom: 1px solid $gColor;
+            cursor: pointer;
         }
     }
 
@@ -962,10 +984,11 @@
 
         div:first-child {
             height: 110px;
-            
-            div:first-child {
-                opacity: 1;
-            }
+        }
+
+        div:hover {
+            opacity: 1;
+            cursor: pointer;
         }
 
         div {
@@ -1382,6 +1405,15 @@
             justify-content: space-between;
             align-items: center;
 
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: $gColor;
+            }
+
             span:first-child {
                 color: $gColor;
             }
@@ -1410,6 +1442,10 @@
                 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
                 background: $gColor;
                 color: white;
+            }
+
+            button:hover {
+                box-shadow: 1px 1px 2px orange, 0 0 1em orange;
             }
         }
     }
